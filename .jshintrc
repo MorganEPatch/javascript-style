@@ -1,0 +1,27 @@
+{
+  "node": true,
+
+  "esversion": 11,
+
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "forin": false,
+  "freeze": true,
+  "futurehostile": true,
+  "latedef": true,
+  "leanswitch": true,
+  "noarg": true,
+  "nocomma": true,
+  "nonbsp": true,
+  "nonew": true,
+  "predef": ["describe", "it", "before", "after", "beforeEach", "afterEach", "expect"],
+  "shadow": false,
+  "singleGroups": true,
+  "strict": "global",
+  "trailing": true,
+  "undef": true,
+  "unused": true,
+  "varstmt": true
+}

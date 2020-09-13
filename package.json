@@ -1,0 +1,38 @@
+{
+  "name": "morganepatch-style",
+  "version": "1.0.0",
+  "description": "JSHint and ESLint configurations for my projects.",
+  "main": ".eslintrc.js",
+  "jsHintConfig": ".jshintrc",
+  "scripts": {
+    "lint": "jshint . && eslint .",
+    "pretest": "npm run --silent lint",
+    "test": "mocha test/**/*.js",
+    "travis": "npm run --silent lint && npm run --silent test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganEPatch/javascript-style.git"
+  },
+  "keywords": [
+    "style",
+    "javascript",
+    "js",
+    "lint",
+    "jshint",
+    "eslint",
+    "es6"
+  ],
+  "author": "Morgan Patch <me@morganepatch.dev> (https://morganepatch.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorganEPatch/javascript-style/issues"
+  },
+  "homepage": "https://github.com/MorganEPatch/javascript-style",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "~7.9.0",
+    "jshint": "^2.12.0",
+    "mocha": "^8.1.3"
+  }
+}

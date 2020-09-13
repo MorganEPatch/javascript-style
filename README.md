@@ -1,2 +1,2 @@
-# js-lint-options
-Linting options for JavaScript
+# javascript-style
+JSHint and ESLint configurations for my projects.
