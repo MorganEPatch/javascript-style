@@ -1,5 +1,6 @@
 {
   "node": true,
+  "mocha": true,
 
   "esversion": 11,
 
@@ -16,11 +17,10 @@
   "nocomma": true,
   "nonbsp": true,
   "nonew": true,
-  "predef": ["describe", "it", "before", "after", "beforeEach", "afterEach", "expect"],
+  "regexpu": true,
   "shadow": false,
   "singleGroups": true,
   "strict": "global",
-  "trailing": true,
   "undef": true,
   "unused": true,
   "varstmt": true

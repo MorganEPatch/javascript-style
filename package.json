@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "JSHint and ESLint configurations for my projects.",
   "main": ".eslintrc.js",
-  "jsHintConfig": ".jshintrc",
+  "jsHintConfig": ".jshintrc.json",
   "scripts": {
-    "lint": "jshint . && eslint .",
+    "lint": "jshint eslint-rules/ test/ .eslintrc.js && eslint eslint-rules/ test/ .eslintrc.js",
     "pretest": "npm run --silent lint",
     "test": "mocha test/**/*.js",
     "travis": "npm run --silent lint && npm run --silent test"
@@ -34,5 +34,8 @@
     "eslint": "~7.9.0",
     "jshint": "^2.12.0",
     "mocha": "^8.1.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
   }
 }

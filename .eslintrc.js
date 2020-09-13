@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 module.exports = {
   extends: [
@@ -24,7 +24,6 @@ module.exports = {
     after:      'readonly',
     beforeEach: 'readonly',
     afterEach:  'readonly',
-    expect:     'readonly',
   },
   rules: {
     strict: ['error', 'global'],

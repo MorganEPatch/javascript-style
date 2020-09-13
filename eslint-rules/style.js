@@ -64,9 +64,6 @@ module.exports = {
     // Arguments can be on a separate line from their parens if they're on multiple lines or there is only one
     'function-paren-newline': ['warn', 'multiline-arguments'],
 
-    // Disallow variable/property/function names that are too long or too short
-    'id-length': ['warn', { min: 3, max: 30, exceptions: ['i', 'e'] } ],
-
     // Require implicit returns from arrow functions to be on the same line as the function declaration
     'implicit-arrow-linebreak': ['warn', 'beside'],
 
