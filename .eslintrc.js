@@ -15,6 +15,7 @@ module.exports = {
   env: {
     node:  true,
     mocha: true,
+    es2020: true,
   },
   globals: {
     describe:   'readonly',

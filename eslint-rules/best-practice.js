@@ -36,7 +36,7 @@ module.exports = {
     'default-param-last': 'error',
 
     // If a dot notation is split by a newline, it must come after the dot
-    'dot-location': ['error', 'object'],
+    'dot-location': ['error', 'property'],
 
     // Require dot over bracket notation when possible
     'dot-notation': 'error',
@@ -119,8 +119,14 @@ module.exports = {
     // Disallow declaring functions inside of loops
     'no-loop-func': 'error',
 
-    // Disallow magic numbers other than 0 or 1, other than in array indexes
-    'no-magic-numbers': ['error', { ignore: [0, 1, '0n', '1n'], ignoreArrayIndexes: true, enforceConst: true } ],
+    // Disallow magic numbers other than 0, 1, or common HTTP statuses, other than in array indexes
+    'no-magic-numbers': [
+      'error', {
+        ignore:             [0, 1, 200, 201, 204, 400, 401, 403, 404, 500, 501, '0n', '1n'],
+        ignoreArrayIndexes: true,
+        enforceConst:       true,
+      },
+    ],
 
     // Disallow multiple space characters other than for indentation
     'no-multi-spaces': 'warn',

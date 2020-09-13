@@ -1,6 +1,6 @@
 {
   "name": "morganepatch-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSHint and ESLint configurations for my projects.",
   "main": ".eslintrc.js",
   "jsHintConfig": ".jshintrc.json",

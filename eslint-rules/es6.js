@@ -7,9 +7,6 @@
 module.exports = {
   rules: {
 
-    // Arrow functions should not have braces where they're not needed
-    'arrow-body-style': ['warn', 'as-needed'],
-
     // Arrow function parameters must always have parens, even if there's only one
     'arrow-parens': ['warn', 'always'],
 
