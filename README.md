@@ -14,7 +14,7 @@ npm install --save-dev morganepatch-style
 2. Extend this package's ESLint config in your own .eslintrc.
 ```json
 {
-  "extends": "morganepatch-style"
+  "extends": "./node_modules/morganepatch-style/.eslintrc.js"
 }
 ```
 
